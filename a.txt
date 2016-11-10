@@ -1,6 +1,6 @@
 Hello World
 - Add
-- Substract
+- Change
 - Divide
 - Multiply
-- Save previous result
+- Save Change result
