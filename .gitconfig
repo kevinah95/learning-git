@@ -1,21 +1,3 @@
-[color]
-    ui = true
-
-[color "branch"]
-    current = yellow reverse
-    local = yellow
-    remote = green
-
-[color "diff"]
-    meta = yellow bold
-    frag = magenta bold
-    old = red bold
-    new = green bold
-
-[color "status"]
-    added = yellow
-    changed = green
-    untracked = red
 [alias]
     st = status
     cl = clone
@@ -32,3 +14,4 @@
     br = branch -av
     up = !git pull --rebase --prune $@ && git submodule update --init --recursive
     cm = !git add -A && git commit -m
+    save = !git add -A && git commit -m 'SAVEPOINT'
