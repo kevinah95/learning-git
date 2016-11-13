@@ -16,3 +16,4 @@
     up = !git pull --rebase --prune $@ && git submodule update --init --recursive
     cm = !git add -A && git commit -m
     save = !git add -A && git commit -m 'SAVEPOINT'
+    ours = "!f() { git co --ours $@ && git add $@; }; f"
