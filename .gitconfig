@@ -1,7 +1,33 @@
+# color {{{
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+
+[color "branch"]
+    current = yellow
+    local = blue
+    remote = green
+
+[color "diff"]
+    meta = yellow
+    frag = magenta
+    old = red bold
+    new = green
+    plain = white
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+
+# }}}
+[apply]
+    whitespace = nowarn
 [alias]
     st = status
     cl = clone
-    ci = commit
+	ci = commit
     co = checkout
     br = branch
     r = reset
@@ -17,3 +43,12 @@
     cm = !git add -A && git commit -m
     save = !git add -A && git commit -m 'SAVEPOINT'
     ours = "!f() { git co --ours $@ && git add $@; }; f"
+	ca = commit
+	cn = commit
+
+[merge]
+    log = true
+    ff = false
+
+[push]
+    default = simple
