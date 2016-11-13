@@ -7,3 +7,4 @@
     r = reset
     cp = cherry-pick
     gr = grep -Ii
+    up = !git pull --rebase --prune $@ && git submodule update --init --recursive
