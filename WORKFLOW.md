@@ -1,3 +1,5 @@
+# FAQ
+
 ## ¿Qué pasa si quiero trabajar en la misma funcionalidad de mi compañero de trabajo?
 
 ### Sugerencia
