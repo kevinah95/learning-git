@@ -15,3 +15,8 @@ kevin(lc-auth)> # kevin is working on this feature locally
 leo(master)> git pull origin master
 leo(master)> 
 ```
+
+
+Notas:
+
+- Si se hace un pull request y a través de la consola se realizó una fusión de las ramas, el pull request se cierra o mejor dicho cambia de estado a 'MERGED'
